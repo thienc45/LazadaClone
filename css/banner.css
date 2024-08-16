@@ -1,0 +1,56 @@
+/* banner start */
+.J_CampaignBanner {
+    display: flex;
+    justify-content: center;
+    /* Căn giữa theo chiều ngang */
+    align-items: center;
+    /* Cjustify-content: center;ăn giữa theo chiều dọc */
+    background-color: rgb(203, 11, 16);
+    /* Nền đỏ */
+    height: 87px;
+    /* Chiều cao của banner */
+    width: 100%;
+    /* Chiều rộng chiếm toàn bộ màn hình */
+    position: relative;
+    /* Đặt vị trí tương đối để điều chỉnh các phần tử con */
+    overflow: hidden;
+    /* Ẩn các phần tử con vượt quá kích thước của phần tử chứa */
+
+}
+
+.pc-custom-link {
+    display: flex;
+    /* Căn giữa theo chiều ngang */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    width: 100%;
+    width: 1180px;
+    text-decoration: none;
+    /* Loại bỏ gạch chân */
+}
+
+.hp-mod-card-content {
+    display: flex;
+    justify-content: center;
+    /* Căn giữa nội dung */
+    align-items: center;
+    /* Căn giữa nội dung */
+    width: 1180px;
+    height: 100%;
+}
+
+.picture-wrapper {
+    width: 1180px;
+    /* Đặt chiều rộng của ảnh là 1180px */
+    height: 87px;
+}
+
+.hp-mod-card-content img {
+    width: 1180px;
+    /* Đặt chiều rộng của ảnh là 1180px */
+    height: 87px;
+    /* Đặt chiều cao của ảnh là 87px */
+    object-fit: contain;
+    /* Đảm bảo ảnh vừa vặn với kích thước */
+    /* Loại bỏ khoảng trắng dưới ảnh */
+}

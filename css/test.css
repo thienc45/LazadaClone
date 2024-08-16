@@ -1,0 +1,79 @@
+/* banner start */
+.J_CampaignBanner {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    background-color: rgb(203, 11, 16); /* Nền đỏ */
+    height: 87px; /* Chiều cao của banner */
+    width: 100%; /* Chiều rộng chiếm toàn bộ màn hình */
+    position: relative; /* Đặt vị trí tương đối để điều chỉnh các phần tử con */
+    overflow: hidden; /* Ẩn các phần tử con vượt quá kích thước của phần tử chứa */
+    z-index: 1; /* Đảm bảo banner nằm dưới thanh điều hướng */
+}
+
+.pc-custom-link {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    width: 100%;
+    width: 1180px;
+    text-decoration: none; /* Loại bỏ gạch chân */
+}
+
+.hp-mod-card-content {
+    display: flex;
+    justify-content: center; /* Căn giữa nội dung */
+    align-items: center; /* Căn giữa nội dung */
+    width: 1180px;
+    height: 100%;
+}
+
+.hp-mod-card-content img {
+    width: 1180px; /* Đặt chiều rộng của ảnh là 1180px */
+    height: 87px; /* Đặt chiều cao của ảnh là 87px */
+    object-fit: contain; /* Đảm bảo ảnh vừa vặn với kích thước */
+   /* Loại bỏ khoảng trắng dưới ảnh */
+}
+
+/* banner end */
+
+
+/* links-bar start */
+.lzd-links-bar {
+    width: 1180px;
+    margin: 0 auto; /* Căn giữa thanh links-bar theo chiều ngang */
+    background-color: #f8f8f8; /* Màu nền thanh điều hướng */
+    padding: 10px 0; /* Khoảng cách xung quanh nội dung của thanh điều hướng */
+    border-bottom: 1px solid #ddd; /* Đường viền dưới thanh điều hướng */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ cho thanh điều hướng */
+ /* Đặt vị trí tương đối để điều chỉnh các phần tử con */
+    z-index: 2; /* Đảm bảo thanh điều hướng nằm trên banner */
+
+}
+
+.links-list {
+    display: flex;
+    justify-content: flex-start; /* Căn trái các phần tử bên trong links-list */
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+    gap: 20px; /* Khoảng cách giữa các liên kết */
+    padding: 0 20px; /* Khoảng cách xung quanh nội dung của links-list */
+}
+
+.top-links-item {
+    list-style: none; /* Loại bỏ gạch chân của các mục liên kết */
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.6rem; /* Kích thước chữ */
+    padding: 8px 12px; /* Khoảng cách xung quanh liên kết */
+    border-radius: 4px; /* Bo tròn các góc của liên kết */
+    transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển màu nền và chữ khi di chuột */
+}
+
+a:hover {
+    background-color: #007bff; /* Màu nền khi di chuột qua */
+    color: #fff; /* Màu chữ khi di chuột qua */
+}
+/* links-bar end */

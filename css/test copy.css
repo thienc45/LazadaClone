@@ -1,0 +1,140 @@
+/* banner start */
+.J_CampaignBanner {
+    display: flex;
+    justify-content: center;
+    /* Căn giữa theo chiều ngang */
+    align-items: center;
+    /* Cjustify-content: center;ăn giữa theo chiều dọc */
+    background-color: rgb(203, 11, 16);
+    /* Nền đỏ */
+    height: 87px;
+    /* Chiều cao của banner */
+    width: 100%;
+    /* Chiều rộng chiếm toàn bộ màn hình */
+    position: relative;
+    /* Đặt vị trí tương đối để điều chỉnh các phần tử con */
+    overflow: hidden;
+    /* Ẩn các phần tử con vượt quá kích thước của phần tử chứa */
+    z-index: 1;
+    /* Đảm bảo banner nằm dưới thanh điều hướng */
+}
+
+.pc-custom-link {
+    display: flex;
+    /* Căn giữa theo chiều ngang */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    width: 100%;
+    width: 1180px;
+    text-decoration: none;
+    /* Loại bỏ gạch chân */
+}
+
+.hp-mod-card-content {
+    display: flex;
+    justify-content: center;
+    /* Căn giữa nội dung */
+    align-items: center;
+    /* Căn giữa nội dung */
+    width: 1180px;
+    height: 100%;
+}
+
+.picture-wrapper {
+    width: 1180px;
+    /* Đặt chiều rộng của ảnh là 1180px */
+    height: 87px;
+}
+
+.hp-mod-card-content img {
+    width: 1180px;
+    /* Đặt chiều rộng của ảnh là 1180px */
+    height: 87px;
+    /* Đặt chiều cao của ảnh là 87px */
+    object-fit: contain;
+    /* Đảm bảo ảnh vừa vặn với kích thước */
+    /* Loại bỏ khoảng trắng dưới ảnh */
+}
+
+/* banner end */
+
+
+/* lzd-header-content start */
+
+/* lzd-links-bar start */
+
+.links-list {
+    display: flex;
+    justify-content: flex-end;
+    width: 1180px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+/* Apply 12px font size for span and a tags */
+.lzd-links-bar span, .lzd-links-bar a {
+    font-size: 12px;
+}
+
+/* lzd-links-bar start */
+.lzd-links-bar {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.links-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1180px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.top-links-item {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.hilight {
+    color: #b518bb;
+    /* font-weight: bold; */
+}
+
+.cyan {
+    color: #00bcd4;
+}
+
+.grey {
+    color: #999;
+}
+
+.highlight {
+    color: #ff5722;
+}
+
+.top-links-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* lzd-logo-bar start */
+.lzd-logo-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.lzd-logo-bar .logo {
+    max-height: 50px;
+}
+
+/* Add hover effect */
+.top-links-item:hover {
+    color: #ff5722;
+}
+
+/* lzd-links-bar end */
+
+/* lzd-header-content end */
